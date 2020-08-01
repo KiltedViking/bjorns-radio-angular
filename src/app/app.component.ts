@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bjorns-radio-angular';
+  title = 'Björn\'s Radio (A)ngular)';
 }

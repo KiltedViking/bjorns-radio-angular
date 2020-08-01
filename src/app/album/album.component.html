@@ -1,0 +1,22 @@
+<h2>Album: {{ selectedAlbum.title }}</h2>
+<p>
+  <strong>Artist:</strong> {{ selectedAlbum.artist }}
+  <strong>Released:</strong> {{ selectedAlbum.released }}
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Song title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let song of selectedAlbum.songs">
+      <td>{{ song.index }}.</td>
+      <td>{{ song.title }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a routerLink="/albums">Back to Album list</a></p>

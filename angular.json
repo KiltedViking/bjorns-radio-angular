@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bjorns-radio-angular"
+    }
+  },
+  "defaultProject": "bjorns-radio-angular",
+  "cli": {
+    "analytics": "79f7f6c7-6959-4e0a-a80f-7d25784c1206"
+  }
 }
