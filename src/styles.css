@@ -2,3 +2,12 @@ html, body {
   background: linear-gradient(to bottom, #800000, #fff);
   height: 100%;
 }
+/* 
+nav>ul {
+  display: inline;
+} */
+
+nav>ul>li {
+  display: inline-block;
+  padding: 0 1em;
+}

@@ -1,4 +1,6 @@
-export class Album {
+import Song from './song';
+
+export default class Album {
   constructor(
     public index: number,
     public title: string,
@@ -6,11 +8,4 @@ export class Album {
     public released: number,
     public songs: Song[],
   ){}
-}
-
-export class Song {
-  constructor(
-    public index: number,
-    public title: string,
-  ) {}
 }

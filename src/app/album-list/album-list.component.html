@@ -3,6 +3,6 @@
 <ul>
   <li *ngFor="let album of albums">
     <a [routerLink]="['/album/', album.index]">{{ album.title }}</a> 
-    - {{ album.artist }}
+    - <a [routerLink]="['/artist/', album.artist]">{{ album.artist }}</a>
   </li>
 </ul>

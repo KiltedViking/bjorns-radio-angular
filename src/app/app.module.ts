@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AlbumListComponent } from './album-list/album-list.component';
 import { AlbumComponent } from './album/album.component';
+import { ArtistComponent } from './artist/artist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AlbumListComponent,
-    AlbumComponent
+    AlbumComponent,
+    ArtistComponent
   ],
   imports: [
     BrowserModule,

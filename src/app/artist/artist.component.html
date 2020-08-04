@@ -1,0 +1,12 @@
+<h2>Artist: {{ this.artist }}</h2>
+
+<ul>
+  <li *ngFor="let album of albums">
+    {{ album.title }}
+    <ol>
+      <li *ngFor="let song of album.songs">{{ song.title }} [ Request ]</li>
+    </ol>
+  </li>
+</ul>
+
+<p><a routerLink="/albums">Back to Album list</a></p>
